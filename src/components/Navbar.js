@@ -62,7 +62,7 @@ const Navbar = () => {
                 </div>
             </div>
 
-            <div className="nav-buttons">
+            <div className="nav-buttons laptop">
                 <button className="transp-btn">Login</button>
                 <button className="blue-btn">Sign up</button>
             </div>

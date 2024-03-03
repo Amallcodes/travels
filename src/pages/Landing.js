@@ -25,7 +25,7 @@ const LandingPage = () => {
                     </div>
                 </div>
 
-                <div className="top-image">
+                <div className="top-image laptop">
                     <img src={image1} alt="" />
                 </div>
             </div>

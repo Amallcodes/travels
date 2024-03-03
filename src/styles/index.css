@@ -176,7 +176,6 @@ input {
 .top-section {
   background-color: var(--light-blue);
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
   padding-top: 2rem;
   overflow: hidden;
   height: 100vh;
@@ -244,7 +243,8 @@ input {
   width: 100%;
 }
 
-select, .date {
+select,
+.date {
   /* -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -263,17 +263,17 @@ option:active {
 
 /* third section */
 
-.third-section{
+.third-section {
   padding-block: 3rem;
 }
 
-.description{
+.description {
   text-align: center;
   margin: auto;
   margin-bottom: 5rem;
 }
 
-.description h1{
+.description h1 {
   margin-bottom: 1rem;
 }
 
@@ -281,12 +281,12 @@ option:active {
   font-size: 1.1rem;
 }
 
-.blue-boxes{
+.blue-boxes {
   display: grid;
   gap: 15px;
 }
 
-.blue-box{
+.blue-box {
   background-color: var(--light-blue);
   border: 1px solid var(--blue);
   padding: 2rem;
@@ -294,17 +294,17 @@ option:active {
   position: relative;
 }
 
-.blue-box h2{
+.blue-box h2 {
   margin-block: 1.5rem;
   color: var(--text-deep-blue);
   font-size: 1.8rem;
 }
 
-.blue-box p{
+.blue-box p {
   margin-bottom: 10rem;
 }
 
-.blue-box .transp-btn{
+.blue-box .transp-btn {
   background-color: var(--light-blue) !important;
   color: var(--blue) !important;
   font-weight: 600;
@@ -314,14 +314,14 @@ option:active {
 }
 
 /* about */
-.about{
+.about {
   display: grid;
   border-radius: 20px;
   margin-block: 5rem;
   overflow: hidden;
 }
 
-.about img{
+.about img {
   width: 90%;
   height: 90%;
   border-radius: 20px;
@@ -329,26 +329,26 @@ option:active {
   object-position: center center;
 }
 
-.about-text{
-  padding-block:  8rem;
+.about-text {
+  padding-block: 8rem;
 }
 
-.about-text h2{
+.about-text h2 {
   margin-block: 1rem;
 }
 
-.about-text .blue-btn{
+.about-text .blue-btn {
   margin-top: 2rem;
 }
 
-.about-text .transp-btn{
+.about-text .transp-btn {
   background-color: var(--light-blue) !important;
   border: 1px solid transparent;
   color: var(--blue) !important;
   font-weight: 600;
 }
 
-.consult-section{
+.consult-section {
   background-image: url("../assets/images/career-vision-image.png");
   background-position: center center;
   background-repeat: no-repeat;
@@ -357,35 +357,36 @@ option:active {
   color: var(--white);
 }
 
-.consult-section h1, .consult-section p {
+.consult-section h1,
+.consult-section p {
   margin-bottom: 2rem;
 }
 
-.consult-section .transp-btn{
+.consult-section .transp-btn {
   background-color: transparent;
   color: var(--white);
   border: 1px solid;
 }
 
-.fourth-section{
+.fourth-section {
   padding-top: 3rem;
   padding-bottom: 5rem;
 }
 
-.fourth-title{
+.fourth-title {
   display: flex;
   width: 100%;
 }
 
-.fourth-title h1{
+.fourth-title h1 {
   margin-bottom: 20px;
 }
 
-.box-1{
+.box-1 {
   width: 60%;
 }
 
-.left-right{
+.left-right {
   display: flex;
   align-items: center;
   /* align-content: center; */
@@ -394,14 +395,15 @@ option:active {
   width: 40%;
 }
 
-.left-right button{
+.left-right button {
   height: 40px;
   background-color: var(--light-blue);
   border: 1px solid var(--deeper-blue);
   color: var(--deeper-blue);
 }
 
-.left, .right{
+.left,
+.right {
   border: 1px solid rgba(0, 0, 0, 0.164);
   padding: 1rem;
   height: 40px;
@@ -411,18 +413,19 @@ option:active {
   opacity: 50%;
 }
 
-.fourth-grid{
+.fourth-grid {
   display: grid;
   gap: 15px;
   margin-top: 3rem;
   margin-bottom: 5rem;
 }
 
-.fourth-grid p{
+.fourth-grid p {
   margin-bottom: 5rem;
 }
 
-.fourth-section-blue-box-img, .fourth-section-blue-box-img-2{
+.fourth-section-blue-box-img,
+.fourth-section-blue-box-img-2 {
   width: 100%;
 }
 
@@ -433,16 +436,16 @@ option:active {
   object-position: center center;
 }
 
-.fourth-title-2{
+.fourth-title-2 {
   text-align: center;
-  margin-block: 3rem ;
+  margin-block: 3rem;
 }
 
-.fourth-title-2 h1{
+.fourth-title-2 h1 {
   color: var(--text-deep-blue);
 }
 
-.fourth-title-2 button{
+.fourth-title-2 button {
   background-color: var(--light-blue);
   color: var(--blue);
   border: 1px solid transparent;
@@ -461,7 +464,7 @@ option:active {
   object-position: center center;
 }
 
-.fourth-grid-2 h2{
+.fourth-grid-2 h2 {
   font-size: 1.5rem;
   margin-top: 4rem;
   margin-bottom: 2rem;
@@ -472,20 +475,20 @@ option:active {
 } */
 
 
-.hr{
+.hr {
   width: 100%;
   height: 2px;
   background-color: rgba(0, 0, 0, 0.233);
   border-radius: 20px;
 }
 
-.lady-section{
+.lady-section {
   display: flex;
   padding-inline: 3rem;
   margin-top: 6rem;
 }
 
-.lady-section-text{
+.lady-section-text {
   width: 60%;
   margin: auto;
   background-color: var(--blue);
@@ -493,18 +496,18 @@ option:active {
   padding-inline: 2rem;
   padding-block: 3.5rem;
   border: 1px solid var(--blue);
-  border-radius: 10px 0 0 10px ;
+  border-radius: 10px 0 0 10px;
 }
 
-.lady-section img{
+.lady-section img {
   width: 40%;
 }
 
-.lady-section h1{
+.lady-section h1 {
   margin-bottom: 10px;
 }
 
-.mail{
+.mail {
   margin-top: 30px;
   border: 1px solid;
   padding-inline: 1rem;
@@ -514,46 +517,47 @@ option:active {
   justify-content: space-between;
 }
 
-.mail input{
+.mail input {
   background-color: transparent;
   border: 0;
   color: #fff;
 }
 
-.mail button{
+.mail button {
   background-color: var(--white);
   color: var(--blue);
   padding-block: .5rem;
   padding-inline: .8rem;
 }
 
-.footer-section{
+.footer-section {
   background-color: var(--footer-blue);
-  color: var(--white) ;
+  color: var(--white);
 }
 
-.footer{
+.footer {
   padding-top: 5rem;
   padding-bottom: 3rem;
   display: grid;
   gap: 30px;
 }
 
-.footer-box-2{
+.footer-box-2 {
   display: grid;
   gap: 40px;
 }
 
-.footer p{
+.footer p {
   margin-block: 10px;
 }
 
-.footer-section .hr{
+.footer-section .hr {
   background-color: rgba(255, 255, 255, 0.438);
   height: 1px;
 }
 
-.socials, .social-icons{
+.socials,
+.social-icons {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -561,22 +565,22 @@ option:active {
   justify-items: center;
 }
 
-.socials{
+.socials {
   padding-block: 3rem;
 }
 
-.social-icons{
+.social-icons {
   width: 150px;
 }
 
-.social{
+.social {
   border: 1px solid;
   padding-inline: 7px;
   padding-block: 5px;
   border-radius: 100%;
 }
 
-.social-icons img{
+.social-icons img {
   width: .9rem;
 }
 
@@ -595,7 +599,9 @@ option:active {
     display: block;
   }
 
-  .nav-links, .nav, .section{
+  .nav-links,
+  .nav,
+  .section {
     padding-inline: 2rem;
   }
 
@@ -627,6 +633,7 @@ option:active {
   }
 
   /* top section */
+
   .top-image img {
     overflow: hidden;
     width: 80%;
@@ -653,64 +660,66 @@ option:active {
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1);
   }
 
-  .calendars{
-    padding-block: 2rem ;
+  .calendars {
+    padding-block: 2rem;
   }
 
-  .select-box{
+  .select-box {
     margin-block: 10px;
   }
 
-  .guests{
+  .guests {
     margin-bottom: 30px;
   }
 
-  .select-box-button .blue-btn, .about-text .blue-btn, .about-text button{
+  .select-box-button .blue-btn,
+  .about-text .blue-btn,
+  .about-text button {
     width: 100%;
     padding-inline: 1rem;
   }
 
-  .blue-box .transp-btn{
+  .blue-box .transp-btn {
     width: 100px;
   }
 
-  .about-text{
+  .about-text {
     padding-block: 0;
   }
 
-  .consult-section{
+  .consult-section {
     margin-inline: -2rem;
     padding-inline: 2rem;
   }
-  
-  .about img{
+
+  .about img {
     width: 100%;
   }
 
-  .box-1{
+  .box-1 {
     width: 100%;
   }
 
-  .left-right{
+  .left-right {
     display: none;
   }
 
-  .blue-box p{
+  .blue-box p {
     margin-bottom: 6rem;
   }
 
-  .lady-section{
+  .lady-section {
     flex-direction: column;
     padding: 0;
     margin-top: -2rem;
   }
 
-  .lady-section-text{
+  .lady-section-text {
     width: 100%;
     border-radius: 10px 10px 10px 10px;
   }
 
-  .lady-section img{
+  .lady-section img {
     display: none;
   }
 }
@@ -748,10 +757,13 @@ option:active {
   }
 
   /* top section */
+  .top-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .top-image img {
     position: relative;
     bottom: 0;
-    /* left: -10px; */
     top: 70px;
   }
 
@@ -793,41 +805,41 @@ option:active {
 
   /* third section */
 
-  .description{
+  .description {
     padding-inline: 20rem;
   }
 
-  .blue-boxes{
+  .blue-boxes {
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .about{
+  .about {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .consult-section{
+  .consult-section {
     margin-inline: -5rem;
     padding-inline: 5rem;
   }
 
-  .consult-text{
+  .consult-text {
     padding-right: 40rem;
   }
 
-  .fourth-grid{
+  .fourth-grid {
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .lady-section-text{
+  .lady-section-text {
     padding-right: 8rem;
   }
 
-  .footer{
+  .footer {
     display: flex;
     justify-content: space-between;
   }
 
-  .footer-box-2{
+  .footer-box-2 {
     display: flex;
     gap: 70px;
   }
